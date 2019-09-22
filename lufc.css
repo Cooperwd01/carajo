@@ -68,8 +68,8 @@ gold: #AC944D;
 /* mobile styles */
 @media only screen and (max-width: 440px) {
     .lufc-btn{
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
     h1 {
         font-size: 3em;
