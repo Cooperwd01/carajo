@@ -56,12 +56,26 @@ gold: #AC944D;
 .bielsa{
     background: url(bielsa-media/images/bielsa-bg.jpg) top center;
     background-size: cover;
-    background-color: #333;
+    background-color: #1D428A;
 }
 
 .alioski{
     background: url(bielsa-media/images/alioski-bg.jpg) top center;
     background-size: cover;
-    background-color: #333;
+    background-color: #1D428A;
 }
 
+/* mobile styles */
+@media only screen and (max-width: 440px) {
+    .lufc-btn{
+        width: 120px;
+        height: 120px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    .btn-txt {
+        margin-top: 90px;
+        font-size: 1em;
+    }
+}
