@@ -305,26 +305,9 @@ div.full-color {
     color: #000839;
 }
 
-.attend-who {
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-@media only screen and (max-width: 765px){
-.attend-who {
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-  }
-}
-
 h2.form-title {
   color: #fff;
 }
-
-
 
 .title-text {
   font-family: 'Roboto', sans-serif;
@@ -647,10 +630,15 @@ a.conf-link {
     background-size: cover;
     padding-top:100px;
     min-height: 60vh;
-  }
+}
 
-  .overview-col {
+.overview-col {
     background-color: #fff;
     margin-top:-50px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  }
+}
+
+.attend-list > li {
+    font-weight:600;
+    font-size: 18px;
+}
