@@ -643,3 +643,7 @@ a.conf-link {
     font-size: 18px;
     margin-top:5px;
 }
+
+.diag-icon{
+    color: #fff; background-color: #005082; margin-right:20px; border:3px solid #000839; padding:10px; border-radius:50%;
+}
