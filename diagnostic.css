@@ -636,3 +636,17 @@ a.conf-link {
 .navbar .dropdown-menu a:hover {
  color: black !important;
 }
+
+/* 2020 code */
+.heading-text{
+    text-shadow: -2px 2px 2px #333;
+    font-weight: 600;
+  }
+.txt-bg {
+    background-color: #191919;
+    background-image: url('https://4allofus.org.uk/wp-content/uploads/2020/03/dna-strand.jpg');
+    color: #fff;
+    background-size: cover;
+    padding-top:100px;
+    min-height: 60vh;
+  }
