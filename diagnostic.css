@@ -46,14 +46,14 @@ display:none;
 }
 
 .nav-fixed {
-  background-color: #8D0C0B;
+  background-color:#000839;
   position:fixed !important; 
   z-index: 1030; 
   width:100%;
 }
 
 .footer-style{
-  background-color: #8D0C0B;
+  background-color: #000839;
 }
 
 .nav-img { 
@@ -71,7 +71,7 @@ display:none;
 a.nav-link {
     font-size: 18px;
     font-weight: 400;
-    border-bottom: 2px solid #8D0C0B;
+    border-bottom: 2px solid #000839;
     margin-right: 20px;
     color:#fff;
     transition: background 0.2s ease-in-out;
@@ -294,14 +294,14 @@ line-height:20px;
 }
 
 div.form-color {
-  background-color: #8D0C0B;
+  background-color: #000839;
   background: -moz-linear-gradient(0deg, rgba(50,97,50,1) 17%, rgba(22,175,22,1) 100%);
   background: -webkit-linear-gradient(0deg, rgba(50,97,50,1) 17%, rgba(22,175,22,1) 100%);
   background: linear-gradient(0deg, rgba(50,97,50,1) 17%, rgba(22,175,22,1) 100%);
 } 
 
 div.full-color {
-    background-color: #8D0C0B;
+    background-color: #000839;
     color: #FFF;
     padding: 20px;
     text-align: center;
@@ -359,7 +359,7 @@ h1.body-text {
   font-family: 'Roboto', sans-serif;
   margin-bottom:15px;
   font-size: 40px;
-  color: #8D0C0B;
+  color: #000839;
 }
 
 h2.body-text {
@@ -385,7 +385,7 @@ ul > li {
 }
 .quote-text {
   font-weight: 600;
-  color: #8D0C0B;
+  color: #000839;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -444,7 +444,7 @@ img.img-show {
 a.nav-link {
     font-size: 18px;
     font-weight: 400;
-    border-bottom: 2px solid #8D0C0B;
+    border-bottom: 2px solid #000839;
     color:white;
 }
 }
