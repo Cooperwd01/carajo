@@ -301,10 +301,8 @@ div.form-color {
 } 
 
 div.full-color {
-    background-color: #000839;
-    color: #FFF;
-    padding: 20px;
-    text-align: center;
+    background-color:#FFA41B;
+    color: #000839;
 }
 
 .attend-who {
@@ -649,4 +647,10 @@ a.conf-link {
     background-size: cover;
     padding-top:100px;
     min-height: 60vh;
+  }
+
+  .overview-col {
+    background-color: #fff;
+    margin-top:-50px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
