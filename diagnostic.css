@@ -641,4 +641,5 @@ a.conf-link {
 .attend-list > li {
     font-weight:600;
     font-size: 18px;
+    margin-top:5px;
 }
