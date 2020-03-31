@@ -650,10 +650,8 @@ a.conf-link {
 
 /* new nav styles */
 span.nav-title {
-  color: white;
   font-size: 20px;
   margin-right: 50px;
-  margin-left: 10px;
   background-color: #00a8cc;
   padding: 8px;
   display: inline-block;
@@ -662,6 +660,8 @@ span.nav-title {
   border-radius: 5px;
   margin-bottom: 5px;
   margin-top: 1px;
+  color: #000839;
+  font-weight: 600;
 }
 .rounded-icon-nav {
   background: #005082;
