@@ -648,6 +648,31 @@ a.conf-link {
     color: #fff; background-color: #005082; margin-right:20px; border:3px solid #000839; padding:10px; border-radius:50%;
 }
 
+/* new nav styles */
+span.nav-title {
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 10px;
+  /* padding-bottom: 30px; */
+  background-color: #00a8cc;
+  padding: 10px;
+  display: inline-block;
+  padding-left: 30px;
+  margin-left: 35px;
+  border-radius: 5px;
+}
+.rounded-icon-nav {
+  background: #005082;
+  padding: 10px;
+  border-radius: 50%;
+  border: 3px solid #00a8cc;
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  font-size: 32px;
+  margin-top: -5px;
+}
 /* palette 
 
 gold: #FFA41B;
