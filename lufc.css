@@ -19,7 +19,6 @@ h1 {
 .skip-link {
     color: #1D428A;
     background-color: #fff;
-
 }
 
 .mcallister{
@@ -36,6 +35,64 @@ gold: #AC944D;
 
 */
 
+/* footer */
+.footer-style{
+    background-color: #505b61;
+    color: #ed0785;
+    border-top:3px solid #ed0785;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+/* player style */
+.player-wrapper {
+    border: 6px solid transparent;
+}
+.correct{
+    border: 6px solid #479e00 !important;
+    background: #479e00;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.incorrect{
+    border: 6px solid #B22222 !important;
+    background: #B22222;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.player-img{
+    width:100%;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.lufc-input{
+    color: #1D428A !important;
+}
+.lufc-input:focus {
+    outline: 3px solid #1D428A;
+}
+/* input styles */
+input{
+    border: 3px solid #1D428A !important;
+    border-radius: 5px solid !important;
+}
+input:focus{
+    outline: 3px solid #FFCD00 !important;
+    outline-offset: 0px;
+    
+    box-shadow: none !important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #1D428A !important;
+    opacity: 0.8 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #1D428A !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #1D428A !important;
+}
+/* /. */
 /* button css*/
 .btn-txt {
     color: #fff;
