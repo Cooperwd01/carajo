@@ -46,6 +46,9 @@ gold: #AC944D;
 .player-wrapper {
     border: 6px solid transparent;
 }
+.player-wrapper > a:focus{
+    outline: none !important;
+}
 .correct{
     border: 6px solid #479e00 !important;
     background: #479e00;
