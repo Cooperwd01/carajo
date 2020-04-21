@@ -16,7 +16,7 @@ $(document).ready(function() {
 // Player 2
 $(document).ready(function() {
     $("#a2").keyup(function() {
-        if (this.value === 'Flo' || this.value === 'flo' || this.value === 'tore flo' || this.value === 'Tore Flo' || this.value === 'tore andre flo' || this.value === 'Tore Andre Flo' ) {
+        if (this.value === 'Flo' || this.value === 'flo' || this.value === 'tore flo' || this.value === 'Tore Flo' || this.value === 'tore andre flo' || this.value === 'Tore Andre Flo' || this.value === 'Tore andre flo' ) {
             $("div#play-two").addClass("correct");
             $("div#play-two").removeClass("incorrect");
         } else if (this.value === '') {
@@ -31,7 +31,7 @@ $(document).ready(function() {
 // Player 3
 $(document).ready(function() {
     $("#a3").keyup(function() {
-        if (this.value === 'joachim' || this.value === 'Joachim' || this.value === 'Julian Joachim' || this.value === 'julian joachim' ) {
+        if (this.value === 'joachim' || this.value === 'Joachim' || this.value === 'Julian Joachim' || this.value === 'julian joachim' || this.value === 'Julian joachim' || this.value === 'julian Joachim' ) {
             $("div#play-three").addClass("correct");
             $("div#play-three").removeClass("incorrect");
         } else if (this.value === '') {
@@ -46,7 +46,7 @@ $(document).ready(function() {
 // Player 4
 $(document).ready(function() {
     $("#a4").keyup(function() {
-        if (this.value === 'marques' || this.value === 'Marques' || this.value === 'Rui Marques' || this.value === 'rui marques' ) {
+        if (this.value === 'marques' || this.value === 'Marques' || this.value === 'Rui Marques' || this.value === 'rui marques' || this.value === 'Rui Marques' || this.value === 'rui Marques' ) {
             $("div#play-four").addClass("correct");
             $("div#play-four").removeClass("incorrect");
         } else if (this.value === '') {
