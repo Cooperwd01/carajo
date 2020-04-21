@@ -1,7 +1,7 @@
 // Player 1
 $(document).ready(function() {
     $("#a1").keyup(function() {
-        if (this.value === 'Carole' || this.value === 'Carol' || this.value === 'carol' || this.value === 'Seb Carol' || this.value === 'seb carol' || this.value === 'Seb Carole' || this.value === 'seb carol' || this.value === 'Sebastien Carole' || this.value === 'sebastien carole' || this.value === 'sebastian carole' || this.value === 'sebastien carol' ) {
+        if (this.value === 'Carole' || this.value === 'Carol' || this.value === 'carol' || this.value === 'Seb Carol' || this.value === 'seb carol' || this.value === 'Seb Carole' || this.value === 'carole' || this.value === 'seb carol' || this.value === 'Sebastien Carole' || this.value === 'sebastien carole' || this.value === 'sebastian carole' || this.value === 'sebastien carol' ) {
             $("div#play-one").addClass("correct");
             $("div#play-one").removeClass("incorrect");
         } else if (this.value === '') {
@@ -46,7 +46,7 @@ $(document).ready(function() {
 // Player 4
 $(document).ready(function() {
     $("#a4").keyup(function() {
-        if (this.value === 'marques' || this.value === 'Marques' || this.value === 'Rui Marques' || this.value === 'rui marques' || this.value === 'Rui Marques' || this.value === 'rui Marques' ) {
+        if (this.value === 'marques' || this.value === 'Marques' || this.value === 'Rui Marques' || this.value === 'rui marques' || this.value === 'Rui Marques' || this.value === 'rui Marques' || this.value === 'rui marquez' || this.value === 'Rui Marquez' || this.value === 'marquez' || this.value === 'Rui Marquez' ) {
             $("div#play-four").addClass("correct");
             $("div#play-four").removeClass("incorrect");
         } else if (this.value === '') {
@@ -55,5 +55,19 @@ $(document).ready(function() {
         } else {
             $("div#play-four").addClass("incorrect");
         }
+    });
+});
+
+// update
+$(document).ready(function() {
+    $(".lufc-input").keyup(function() {
+        $("#score").text($(".correct").length );
+    });
+});
+
+// show score
+$(document).ready(function() {
+    $(".lufc-input").keyup(function() {
+        $("#score-wrapper").fadeIn(1000);
     });
 });
