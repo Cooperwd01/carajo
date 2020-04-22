@@ -16,7 +16,7 @@ $(document).ready(function() {
 // Player 2
 $(document).ready(function() {
     $("input#a2").keyup(function() {
-        if (this.value === 'Flo' || this.value === 'flo' || this.value === 'tore flo' || this.value === 'Tore Flo' || this.value === 'tore andre flo' || this.value === 'Tore Andre Flo' || this.value === 'Tore andre flo' || this.value === 'Flo ' || this.value === 'flo ' || this.value === 'tore flo ' || this.value === 'Tore Flo ' || this.value === 'tore andre flo ' || this.value === 'Tore Andre Flo ' || this.value === 'Tore andre flo ' ) {
+        if (this.value === 'Flo' || this.value === 'flo' || this.value === 'tore flo' || this.value === 'Tore Flo' || this.value === 'tore andre flo' || this.value === 'Tore Andre Flo' || this.value === 'Tore andre flo' || this.value === 'Flo ' || this.value === 'flo ' || this.value === 'tore flo ' || this.value === 'Tore Flo ' || this.value === 'tore andre flo ' || this.value === 'Tore Andre Flo ' || this.value === 'Tore andre flo ' || this.value === 'torre andre flo' || this.value === 'Torre Andre Flo' || this.value === 'Torre andre flo' ) {
             $("div#play-two").addClass("correct");
             $("div#play-two").removeClass("incorrect");
         } else if (this.value === '') {
