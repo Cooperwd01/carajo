@@ -64,11 +64,12 @@ gold: #AC944D;
 .close:hover {
     color:#AC944D;
 }
-#congrats-text, #not-good-text{
+#congrats-text, #not-good-text, #ok-text{
+    margin:0 auto;
     color:#FFCD00;
     text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-#body-text{
+#body-text-good, #body-text-bad, #body-text-great{
     text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .quiz-btn {
@@ -89,6 +90,31 @@ gold: #AC944D;
     border-top: none;
 }
 
+.answer-link{
+    text-align: center;
+    display:inline-block;
+    text-decoration:underline;
+    font-size: 20px;
+    border: 5px solid #1D428A;
+    color: #1D428A;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.answer-link:hover{
+    color: #1D428A;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.play-answer {
+    color: #1D428A;
+    font-size: 24px;
+    margin: 0 auto;
+    border-bottom: 3px solid #1D428A;
+    text-align: center;
+    margin-top: 10px;
+}
 /* /. */
 
 /* footer */

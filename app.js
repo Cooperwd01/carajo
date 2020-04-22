@@ -243,6 +243,8 @@ $(document).ready(function() {
     $("input.lufc-input").keyup(function() {
         $("span#score").text($("div.correct").length );
         $("span#score-bad").text($("div.correct").length );
+        $("span#score-good").text($("div.correct").length );
+        $("span#score-ok").text($("div.correct").length );
     });
 });
 
@@ -258,7 +260,7 @@ $(document).ready(function() {
     $("input.lufc-input").keyup(function() {
         if ($("div.correct").length === 16) {
             $('div#modal-wrapper').modal();
-            $('#submit-quiz-btn').attr('data-target','div#modal-wrapper');
+            $('button#submit-quiz-btn').attr('data-target','#modal-wrapper');
         };
     });
 });
@@ -266,8 +268,12 @@ $(document).ready(function() {
 //show different modals
 $(document).ready(function() {
     $("input.lufc-input").keyup(function() {
-        if ($("div.correct").length <= 8) {
-            $('#submit-quiz-btn').attr('data-target','#not-good-wrapper');
-        };
+        if ($("div.correct").length <= 7) {
+            $('button#submit-quiz-btn').attr('data-target','#not-good-wrapper');
+        } else if ($("div.correct").length >= 8 &&  $("div.correct").length <= 13) {
+            $('button#submit-quiz-btn').attr('data-target','#ok-wrapper');
+        } else if ($("div.correct").length >=14 ) {
+            $('button#submit-quiz-btn').attr('data-target','#modal-wrapper');
+        }
     });
 });
