@@ -35,6 +35,62 @@ gold: #AC944D;
 
 */
 
+/* modal */
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem 10px;
+}
+.modal-title {
+    margin: 0 auto;
+}
+.congrats-img {
+    margin: 0 auto;
+    widows: 60%;
+    display:block;
+}
+.modal-text {
+    color: #1D428A ;
+}
+.modal-header {
+    background-color: #1D428A;
+    color:#FFCD00 !important;
+}
+.close {
+    color:#FFCD00; 
+    font-size:30px;
+    opacity: 1 !important;
+    text-shadow: none !important;
+}   
+.close:hover {
+    color:#AC944D;
+}
+#congrats-text, #not-good-text{
+    color:#FFCD00;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+#body-text{
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.quiz-btn {
+    color: #1D428A;
+    background-color: #FFCD00;
+    border-bottom: 3px solid #1D428A;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    transition: .4s ease-in-out;
+}
+.quiz-btn:hover {
+    color: #FFCD00;
+    background-color: #1D428A;
+    border-bottom: 3px solid #1D428A;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/* /. */
+
 /* footer */
 .footer-style{
     background-color: #505b61;
