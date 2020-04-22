@@ -94,6 +94,7 @@ gold: #AC944D;
     border-left: none;
     border-right: none;
     border-top: none;
+    text-decoration: none !important;
 }
 
 .answer-link{
