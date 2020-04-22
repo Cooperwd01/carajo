@@ -1,7 +1,7 @@
 // Player 1
 $(document).ready(function() {
     $("input#a1").keyup(function() {
-        if (this.value === 'Carole' || this.value === 'Carol' || this.value === 'carol' || this.value === 'Seb Carol' || this.value === 'seb carol' || this.value === 'Seb Carole' || this.value === 'carole' || this.value === 'seb carol' || this.value === 'Sebastien Carole' || this.value === 'sebastien carole' || this.value === 'sebastian carole' || this.value === 'sebastien carol' ) {
+        if (this.value === 'Carole' || this.value === 'Carol' || this.value === 'carol' || this.value === 'Seb Carol' || this.value === 'seb carol' || this.value === 'Seb Carole' || this.value === 'carole' || this.value === 'seb carol' || this.value === 'Sebastien Carole' || this.value === 'sebastien carole' || this.value === 'sebastian carole' || this.value === 'sebastien carol' || this.value === 'Sebastian carole' || this.value === 'Sebastien carol' ) {
             $("div#play-one").addClass("correct");
             $("div#play-one").removeClass("incorrect");
         } else if (this.value === '') {
@@ -16,7 +16,7 @@ $(document).ready(function() {
 // Player 2
 $(document).ready(function() {
     $("input#a2").keyup(function() {
-        if (this.value === 'Flo' || this.value === 'flo' || this.value === 'tore flo' || this.value === 'Tore Flo' || this.value === 'tore andre flo' || this.value === 'Tore Andre Flo' || this.value === 'Tore andre flo' ) {
+        if (this.value === 'Flo' || this.value === 'flo' || this.value === 'tore flo' || this.value === 'Tore Flo' || this.value === 'tore andre flo' || this.value === 'Tore Andre Flo' || this.value === 'Tore andre flo' || this.value === 'Flo ' || this.value === 'flo ' || this.value === 'tore flo ' || this.value === 'Tore Flo ' || this.value === 'tore andre flo ' || this.value === 'Tore Andre Flo ' || this.value === 'Tore andre flo ' ) {
             $("div#play-two").addClass("correct");
             $("div#play-two").removeClass("incorrect");
         } else if (this.value === '') {
@@ -106,7 +106,7 @@ $(document).ready(function() {
 // Player 8
 $(document).ready(function() {
     $("input#a8").keyup(function() {
-        if (this.value === 'Dan Harding' || this.value === 'dan harding' || this.value === 'harding' || this.value === 'Harding' || this.value === 'Daniel Harding' || this.value === 'Dan harding' || this.value === 'daniel harding' ) {
+        if (this.value === 'Daniel harding' || this.value === 'Dan Harding' || this.value === 'dan harding' || this.value === 'harding' || this.value === 'Harding' || this.value === 'Daniel Harding' || this.value === 'Dan harding' || this.value === 'daniel harding' || this.value === 'daniel harding ' || this.value === 'harding '  ) {
             $("div#play-eight").addClass("correct");
             $("div#play-eight").removeClass("incorrect");
         } else if (this.value === '') {
