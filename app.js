@@ -188,7 +188,7 @@ $(document).ready(function() {
             $("div#play-thirteen").removeClass("correct");
             $("div#play-thirteen").removeClass("incorrect");
         } else {
-            $("div#play-nine").addClass("incorrect");
+            $("div#play-thirteen").addClass("incorrect");
         }
     });
 });
