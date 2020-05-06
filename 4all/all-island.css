@@ -285,3 +285,32 @@ margin-right: 10px;
   div#navbarNavDropdown {
       background-color: white;
   }
+
+  /* speaker new */
+  .speaker-img-wrapper {
+    border-radius: 3px;
+    display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-top:3px solid #910303;
+    border-left: 3px solid #910303;
+    border-right:3px solid #910303; 
+}
+.speaker-img {
+    width:100%;
+    cursor: pointer;
+}
+.speaker-img-wrapper:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.modal-btn-link{
+    padding: 10px;
+    background-color:#910303;
+    width:100%;
+    font-size: 20px;
+    color: #fff;
+}
+.modal-body-text{
+    font-size:16px;
+    font-weight:600;
+}
